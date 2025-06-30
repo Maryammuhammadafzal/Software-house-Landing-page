@@ -120,3 +120,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.gradient {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  rotate: 45deg;
+  opacity: 80%;
+  filter: blur(1px);
+  background: linear-gradient(to right , #fc9edc , #f7b888 , #9ce8f7);
+
+}

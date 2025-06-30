@@ -1,3 +1,4 @@
+import AnimatedVector from '@/components/AnimatedVector'
 import Header from '@/components/Header'
 import React from 'react'
 
@@ -9,7 +10,7 @@ const HeroPage = () => {
             <Header/>
         </div>
         <div className='hero-section flex w-full h-auto justify-center items-center py-20'>
-
+<AnimatedVector/>
         </div>
       </div>
     </div>
