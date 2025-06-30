@@ -59,9 +59,9 @@ import React from 'react'
 
 const AnimatedVector = () => {
   return (
-    <div className='flex justify-center items-center h-auto w-full'>
-      <div className='gradient'></div>
-    </div>
+    <div className='parent flex justify-center items-center w-full backdrop-blur-[171px] bg-white'>
+  <div className='gradient absolute'></div>
+</div>
   )
 }
 
