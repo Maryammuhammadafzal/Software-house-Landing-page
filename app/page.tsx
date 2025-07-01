@@ -4,6 +4,7 @@ import Rating from "@/components/Rating";
 import ServicePage from "./services/page";
 import Industries from "@/components/Industries";
 import PortfolioPage from "./portfolio/app";
+import TeamPage from "./team/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
   <ServicePage/>
   <Industries/>
   <PortfolioPage/>
+  <TeamPage/>
  </div>
   );
 }
