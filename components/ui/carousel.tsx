@@ -215,7 +215,7 @@ function CarouselNext({
       // variant={variant}
       size={size}
       className={cn(
-        "bg-transparent size-10 shadow-none  text-black",
+        "bg-transparent size-10 shadow-none hover:text-white  text-black",
         orientation === "horizontal"
           ? "-translate-y-1/2"
           : "-translate-x-1/2",

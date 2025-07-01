@@ -162,6 +162,13 @@ h1 , h2 , h3 , h4 {
   border-radius: 100px;
   
 }
+.input-border-gradient {
+   border: 2px solid; /* Adjust width */
+  border-image-slice: 1; /* Required */
+  border-image-source: linear-gradient(to right, #fc9edc, #f7b888, #9ce8f7);
+  border-radius: 100px;
+  
+}
 
 .sign {
   font-family: "Kapakana", cursive;

@@ -5,6 +5,7 @@ import ServicePage from "./services/page";
 import Industries from "@/components/Industries";
 import PortfolioPage from "./portfolio/app";
 import TeamPage from "./team/page";
+import ContactPage from "./contact/app";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
   <Industries/>
   <PortfolioPage/>
   <TeamPage/>
+  <ContactPage/>
  </div>
   );
 }
