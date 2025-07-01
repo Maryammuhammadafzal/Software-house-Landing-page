@@ -5,13 +5,13 @@ import { Textarea } from "@/components/ui/textarea";
 const ContactPage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-10">
-      <div className="w-[90%] h-auto flex justify-between items-start gap-4 md:flex-row flex-col">
-        <div className="content flex w-[50%] px-6 flex-col items-start justify-start">
+      <div className="w-full md:w-[95%] lg:w-[90%] h-auto flex justify-between items-start gap-4 md:flex-row flex-col">
+        <div className="content flex w-full md:w-[50%] px-6 flex-col items-start justify-start">
           <div className="heading flex flex-col text-2xl gap-3 max-w-lg leading-10">
-            <h2 className="text-4xl font-medium uppercase">
+            <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase md:px-2'>
               Tailored Solutions for Every Need
             </h2>
-            <p className="text-base pr-3 leading-7">
+            <p className="md:text-xl text-lg md:px-3 leading-5 md:leading-7">
               We prioritize your needs, ensuring transparency, communication,
               and collaboration throughout the development process.
             </p>
@@ -37,9 +37,9 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="form flex flex-col items-start justify-between gap-6 w-[50%] px-6 h-full">
-          <div className="flex flex-col gap-6 h-auto w-full">
-            <div className="flex flex-row max-lg:flex-wrap gap-4">
+        <div className="form flex flex-col items-center md:items-start justify-between gap-6 w-full md:w-[50%] px-6 h-full">
+          <div className="flex flex-col items-center md:items-start gap-6 h-auto w-full">
+            <div className="flex flex-row max-lg:flex-wrap justify-center md:justify-start gap-4">
               <div className="grid w-full max-w-sm items-center gap-3 ">
                 <Label htmlFor="name">Name</Label>
                 <div className="inline-block  p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-lg">
@@ -62,7 +62,7 @@ const ContactPage = () => {
               </div>
             </div>
 
-            <div className="grid w-full gap-3">
+            <div className="grid items-center w-full max-w-sm gap-3">
               <Label htmlFor="message">Your message</Label>
                <div className="inline-block  p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-lg">
               <Textarea
