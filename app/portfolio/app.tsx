@@ -28,16 +28,26 @@ const PortfolioPage = () => {
             </div>
             <section className="p-6 flex justify-center items-center w-full h-full relative">
               <div className="w-full h-full absolute top-0 left-0 p-3 flex justify-center items-center -z-10">
-                <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
+                <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[151px] rotate-45 rounded-full "></div>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {portfolio_images.map((src, index) => (
-                  <Card key={index} className="w-full overflow-hidden rounded-xl bg-transparent border-none shadow-none">
-                    <CardContent className=" w-auto p-0">
+                  <Card
+                    key={index}
+                    className={`
+        w-full overflow-hidden rounded-xl bg-transparent border-none shadow-none
+        ${
+          index === 4
+            ? "col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-3"
+            : ""
+        }
+      `}
+                  >
+                    <CardContent className="w-auto p-0">
                       <img
                         src={src}
                         alt={`Gallery ${index + 1}`}
-                        className="w-auto h-auto max-h-[400px] rounded-3xl object-cover hover:scale-105 transition-transform duration-300 "
+                        className="w-full h-[350px] rounded-3xl object-cover hover:scale-105 transition-transform duration-300"
                       />
                     </CardContent>
                   </Card>
