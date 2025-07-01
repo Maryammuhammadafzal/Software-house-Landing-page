@@ -19,7 +19,7 @@ const HeroPage = () => {
                             <h1 className='text-5xl font-medium uppercase leading-16' >Discover Excellence with CodeCrafters Studio</h1>
                             <p className='text-xl px-3 leading-7'>At CodeCrafters Studio, we transform ideas into reality by delivering cutting-edge software solutions tailored to your unique needs.</p>
                             {/* <div className="inline-block p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-full"> */}
-                                <button className="button-border-gradient bg-transparent text-black px-8 py-2 uppercase rounded-full font-semibold">
+                                <button className="button-border-gradient border- bg-transparent text-black px-8 py-2 uppercase rounded-full font-semibold">
                                     {`Let’s Connect`}
                                 </button>
                             {/* </div> */}

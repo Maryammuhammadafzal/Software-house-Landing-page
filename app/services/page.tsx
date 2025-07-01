@@ -37,7 +37,7 @@ const ServicePage = () => {
   ];
 
   return (
-    <div className="w-full h-auto flex justify-center items-center py-10">
+    <div className="w-full h-auto flex justify-center items-center py-20">
       <div className="w-[90%] h-full flex justify-center items-center relative">
         <div className="w-full h-full absolute top-0 left-0 p-3 flex justify-center items-center -z-10">
         <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
@@ -55,7 +55,7 @@ const ServicePage = () => {
             </div>
             <div className="cards flex flex-wrap w-full h-auto gap-9 justify-center items-center">
             {service_data.map(({title , description} , index) => (
-                  <Card className="w-[340px] border-gradient h-[335px] rounded-xl p-3 text-center flex justify-center items-center">
+                  <Card key={index} className="w-[340px] border-gradient h-[335px] rounded-xl p-3 text-center flex justify-center items-center">
                 <CardContent className="flex flex-col gap-4 tetx-center justify-center items-center  w-full h-full">
                   <div className="flex flex-col justify-between items-center w-full h-auto text-center">
                     <h5 className="font-medium uppercase text-xl">
