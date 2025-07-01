@@ -3,37 +3,29 @@ import { title } from "process";
 import React from "react";
 
 const TeamPage = () => {
-  let service_data = [
+  let team_data = [
     {
-      title: "Custom Software Development",
-      description:
-        "Empower your business with bespoke software solutions designed specifically for your operations. From planning to deployment, we provide scalable and robust applications tailored to your needs.",
+      image: "/images/team-image1.png",
+      name: "Sarah Thompson",
+      profession: "Chief Executive Officer (CEO)",
+      about:
+        "Sarah is the driving force behind CodeCrafters Studio. With over a decade of experience in the tech industry, she leads with vision and inspires innovation. Her passion for technology and strategic thinking has propelled the company to new heights.",
     },
     {
-      title: "Web Application Development",
-      description:
-        "Enhance your online presence with dynamic and user-friendly web applications. Our team specializes in modern frameworks and ensures seamless user experiences across all devices.",
+      image: "/images/team-image1.png",
+      name: "Sarah Thompson",
+      profession: "Chief Executive Officer (CEO)",
+      about:
+        "Sarah is the driving force behind CodeCrafters Studio. With over a decade of experience in the tech industry, she leads with vision and inspires innovation. Her passion for technology and strategic thinking has propelled the company to new heights.",
     },
     {
-      title: "Mobile App Development",
-      description:
-        "Reach your audience wherever they are with intuitive and responsive mobile applications. We develop apps for Android, iOS, and cross-platform solutions to meet your business goals.",
+      image: "/images/team-image1.png",
+      name: "Sarah Thompson",
+      profession: "Chief Executive Officer (CEO)",
+      about:
+        "Sarah is the driving force behind CodeCrafters Studio. With over a decade of experience in the tech industry, she leads with vision and inspires innovation. Her passion for technology and strategic thinking has propelled the company to new heights.",
     },
-    {
-      title: "Cloud Solutions",
-      description:
-        "Leverage the power of cloud computing with our scalable, secure, and cost-effective cloud services. From migration to management, we help you harness the cloud's full potential.",
-    },
-    {
-      title: "E-Commerce Development",
-      description:
-        "Boost your sales with customized e-commerce platforms. We provide end-to-end solutions, including payment gateways, inventory management, and responsive design.",
-    },
-    {
-      title: "IT Consulting",
-      description:
-        "Navigate the complexities of technology with our expert consulting services. We provide insights, strategies, and solutions to optimize your IT infrastructure.",
-    },
+   
   ];
 
   return (
@@ -43,21 +35,22 @@ const TeamPage = () => {
           <div className="w-full text-center h-full flex flex-col gap-14 items-center">
             <div className="heading flex flex-col justify-center items-center text-2xl gap-4 max-w-2xl">
               <h2 className="text-5xl font-medium uppercase px-2">
-                Tailored Solutions for Every Need
+                Meet Our Team
               </h2>
               <p className="text-xl px-3 leading-7">
-                We prioritize your needs, ensuring transparency, communication,
-                and collaboration throughout the development process.
+                Our team of dedicated professionals is passionate about
+                technology, creativity, and excellence, ensuring every project
+                we undertake exceeds expectations.
               </p>
             </div>
             <div className="cards flex flex-wrap w-full h-auto gap-9 justify-center items-center relative">
               <div className="w-full h-full absolute top-0 left-0 p-3 flex justify-center items-center -z-10">
                 <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
               </div>
-              {service_data.map(({ title, description }, index) => (
+              {team_data.map(({ name, about , image , profession }, index) => (
                 <Card
                   key={index}
-                  className="w-[340px] border-gradient h-[335px] rounded-xl p-3 text-center flex justify-center items-center"
+                  className="w-full h-auto flex bg-[#F8F8F8] "
                 >
                   <CardContent className="flex flex-col gap-4 text-center justify-evenly items-center  w-full h-full">
                     <div className="flex flex-col gap-4 justify-center items-center w-full h-auto text-center">
