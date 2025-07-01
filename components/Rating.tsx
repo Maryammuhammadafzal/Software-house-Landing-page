@@ -32,7 +32,7 @@ const Rating = () => {
                             <div className=' w-[170px] h-[180px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[120px] rotate-45 rounded-full '></div>
                         </div>
                         <div className='w-full h-full gap-3 bg-transparent flex flex-col justify-center items-center'>
-                            <h2 className='text-5xl font-medium uppercase px-2' >{rate}{type}</h2>
+                            <h2 className='sm:text-5xl text-4xl font-medium uppercase px-2' >{rate}{type}</h2>
                             <p className='text-lg leading-7'>{title}</p>
                         </div>
                     </div>

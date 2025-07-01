@@ -50,15 +50,15 @@ const TeamPage = () => {
   ];
 
   return (
-    <div className="w-full h-auto flex justify-center items-center md:py-20 py-10 lg:py-30">
+    <div className="w-full h-auto flex justify-center items-center md:py-20 xs:py-10 py-7 lg:py-30">
       <div className="lg:w-[90%] md:w-[95%] w-full h-full flex justify-center items-center">
         <div className="flex w-full h-full justify-center items-center">
           <div className="w-full h-full flex flex-col gap-14 items-center">
             <div className="heading text-center flex flex-col justify-center items-center text-2xl gap-4 max-w-2xl">
-              <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase px-2'>
+              <h2 className='lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium uppercase px-2'>
                 Meet Our Team
               </h2>
-              <p className="md:text-xl text-lg px-3 leading-5 md:leading-7">
+              <p className="md:text-xl sm:text-lg text-base px-3 leading-5 md:leading-7">
                 Our team of dedicated professionals is passionate about
                 technology, creativity, and excellence, ensuring every project
                 we undertake exceeds expectations.
@@ -73,7 +73,7 @@ const TeamPage = () => {
                       key={index}
                       className="w-full p-0 border-none h-auto flex justify-center items-center bg-[#F8F8F8] rounded-4xl"
                     >
-                      <CardContent className="flex p-0 flex-row md:gap-10 sm:gap-6 gap-3 items-center rounded-4xl w-full h-full">
+                      <CardContent className="flex p-0 flex-col sm:flex-row md:gap-10 sm:gap-6 gap-3 items-center rounded-4xl w-full h-full">
                         <div className="w-auto h-full  rounded-4xl">
                           <Image
                             src={image}
