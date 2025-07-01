@@ -154,3 +154,8 @@
 h1 , h2 , h3 , h4 {
   color : #323232;
 }
+
+.border-style {
+  border-style: solid ;
+  border-image: linear-gradient(to right, #fc9edc, #f7b888, #9ce8f7);
+}
