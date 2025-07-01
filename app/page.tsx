@@ -3,6 +3,7 @@ import AboutPage from "./about/page";
 import Rating from "@/components/Rating";
 import ServicePage from "./services/page";
 import Industries from "@/components/Industries";
+import PortfolioPage from "./portfolio/app";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
   <Rating/>
   <ServicePage/>
   <Industries/>
+  <PortfolioPage/>
  </div>
   );
 }
