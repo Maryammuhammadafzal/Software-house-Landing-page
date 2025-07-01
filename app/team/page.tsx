@@ -50,22 +50,22 @@ const TeamPage = () => {
   ];
 
   return (
-    <div className="w-full h-auto flex justify-center items-center py-30">
-      <div className="w-[90%] h-full flex justify-center items-center">
+    <div className="w-full h-auto flex justify-center items-center md:py-20 py-10 lg:py-30">
+      <div className="lg:w-[90%] md:w-[95%] w-full h-full flex justify-center items-center">
         <div className="flex w-full h-full justify-center items-center">
           <div className="w-full h-full flex flex-col gap-14 items-center">
             <div className="heading text-center flex flex-col justify-center items-center text-2xl gap-4 max-w-2xl">
-              <h2 className="text-5xl font-medium uppercase px-2">
+              <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase px-2'>
                 Meet Our Team
               </h2>
-              <p className="text-xl px-3 leading-7">
+              <p className="md:text-xl text-lg px-3 leading-5 md:leading-7">
                 Our team of dedicated professionals is passionate about
                 technology, creativity, and excellence, ensuring every project
                 we undertake exceeds expectations.
               </p>
             </div>
 
-            <Carousel className="w-full p-6">
+            <Carousel className="w-full md:p-6 p-3">
               <CarouselContent>
                 {team_data.map(({ name, about, image, profession }, index) => (
                   <CarouselItem className="">
@@ -80,31 +80,31 @@ const TeamPage = () => {
                             alt="team-image"
                             width={200}
                             height={300}
-                            className="w-[450px] h-[516px] object-cover rounded-4xl"
+                            className="w-[450px] h-full md:h-[450px] lg:h-[516px] object-cover rounded-4xl"
                           />
                         </div>
                         {/* <div className="w-full h-full absolute top-0 -left-5 p-3 flex justify-start items-center z-10">
                           <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
                         </div> */}
-                        <div className="flex flex-col gap-10 justify-center pr-5 w-full h-full">
-                          <div className="flex flex-col gap-2">
-                            <h5 className="font-medium uppercase text-4xl">
+                        <div className="flex flex-col md:gap-8 gap-6 lg:gap-10 justify-center md:pr-5 w-full h-full">
+                          <div className="flex flex-col md:gap-2 gap-1 max-md:p-3">
+                            <h5 className="font-medium uppercase lg:text-4xl md:text-3xl text-2xl">
                               {name}
                             </h5>
-                            <h6 className="font-normal uppercase text-base">
+                            <h6 className="font-normal uppercase text-xs md:text-sm lg:text-base">
                               {profession}
                             </h6>
                           </div>
 
-                          <p className="text-xl">{about}</p>
+                          <p className="lg:text-xl md:text-lg text-sm">{about}</p>
 
                           <div className="flex gap-6 p-3 items-center">
-                            <h5 className="sign lg:text-5xl text-4xl font-mono">{name}</h5>
-                            <hr className="border border-black w-[200px] lg:w-[290px]" />
+                            <h5 className="sign xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-mono">{name}</h5>
+                            <hr className="border border-black w-[150px] md:w-[200px] lg:w-[290px]" />
                           </div>
 
                           <div className="w-full flex justify-end items-end px-7">
-                            <div className="flex gap-3">
+                            <div className="flex gap-1 lg:gap-3">
                              <CarouselPrevious ><MoveLeftIcon size={30} /></CarouselPrevious>   
                              <CarouselNext ><MoveRightIcon size={30} /></CarouselNext> 
                             </div>
