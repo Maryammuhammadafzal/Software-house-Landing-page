@@ -39,8 +39,10 @@ const ServicePage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-10">
       <div className="w-[90%] h-full flex justify-center items-center relative">
-        <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[130px] rotate-45 rounded-4xl "></div>
-        <div className="flex absolute top-0 left-0 w-full h-full justify-center items-center">
+        <div className="w-full h-full absolute top-0 left-0 p-3 flex justify-center items-center -z-10">
+        <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
+        </div>
+        <div className="flex w-full h-full justify-center items-center">
           <div className="w-full text-center h-full flex flex-col gap-6 items-center">
             <div className="heading flex flex-col justify-center items-center text-2xl gap-3 max-w-2xl">
               <h2 className="text-5xl font-medium uppercase px-2">
