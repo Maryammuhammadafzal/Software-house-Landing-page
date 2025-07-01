@@ -8,29 +8,29 @@ const ContactPage = () => {
       <div className="w-full md:w-[95%] lg:w-[90%] h-auto flex justify-between items-start gap-4 md:flex-row flex-col">
         <div className="content flex w-full md:w-[50%] px-6 flex-col items-start justify-start">
           <div className="heading flex flex-col text-2xl gap-3 max-w-lg leading-10">
-            <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase md:px-2'>
+            <h2 className='lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium uppercase md:px-2'>
               Tailored Solutions for Every Need
             </h2>
-            <p className="md:text-xl text-lg md:px-3 leading-5 md:leading-7">
+            <p className="md:text-xl xs:text-lg text-base md:px-3 leading-5 md:leading-7">
               We prioritize your needs, ensuring transparency, communication,
               and collaboration throughout the development process.
             </p>
           </div>
 
           <div className="flex flex-col py-6 w-full h-auto gap-2 justify-center">
-            <p className="text-lg flex gap-1 font-normal">
+            <p className="xs:text-lg text-base flex gap-1 font-normal">
               <span className="font-semibold capitalize">Email: </span>
               <span>info@[yourDomain]gmail.com</span>
             </p>
-            <p className="text-lg flex gap-1 font-normal">
+            <p className="xs:text-lg text-base flex gap-1 font-normal">
               <span className="font-semibold capitalize">phone: </span>
               <span>+92 3333333</span>
             </p>
-            <p className="text-lg flex gap-1 font-normal">
+            <p className="xs:text-lg text-base flex gap-1 font-normal">
               <span className="font-semibold capitalize">Address: </span>
               <span>Sindh Karachi , Pakistan</span>
             </p>
-            <p className="text-lg flex gap-1 font-normal">
+            <p className="xs:text-lg text-base flex gap-1 font-normal">
               <span className="font-semibold capitalize">social Media: </span>
               <span>www.socialmedia.com</span>
             </p>

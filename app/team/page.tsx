@@ -55,7 +55,7 @@ const TeamPage = () => {
         <div className="flex w-full h-full justify-center items-center">
           <div className="w-full h-full flex flex-col gap-14 items-center">
             <div className="heading text-center flex flex-col justify-center items-center text-2xl gap-4 max-w-2xl">
-              <h2 className='lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium uppercase px-2'>
+              <h2 className='lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium uppercase sm:px-2 px-1'>
                 Meet Our Team
               </h2>
               <p className="md:text-xl sm:text-lg text-base px-3 leading-5 md:leading-7">

@@ -4,14 +4,14 @@ const Join = () => {
   return (
     <div className="w-full h-auto py-10 flex justify-center items-center">
       <div
-        className="w-[90%] min-h-[300px] flex justify-between items-center xs:px-7 px-4 sm:px-10  bg-cover rounded-3xl bg-right"
+        className="w-[90%] min-h-[300px] flex justify-between items-center sm:px-7 xs:px-4 px-2 md:px-10  bg-cover rounded-3xl bg-right"
         style={{ backgroundImage: `url('/images/join-bg.png')` }}
       >
         <div className="flex flex-col  max-w-xl justify-start gap-3 items-starttext-center">
           <h1 className='lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium uppercase px-2'>
             Join Us
           </h1>
-          <p className="md:text-xl xs:text-lg text-base px-3 leading-5 xs:leading-6 md:leading-7">
+          <p className="md:text-xl xs:text-lg text-base sm:px-3 px-1 leading-5 xs:leading-6 md:leading-7">
             At CodeCrafters Studio, we transform ideas into reality by
             delivering cutting-edge software solutions tailored to your unique
             needs.

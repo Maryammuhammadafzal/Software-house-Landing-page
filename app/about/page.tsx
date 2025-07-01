@@ -7,7 +7,7 @@ const AboutPage = () => {
         <div className='w-full h-auto flex justify-center items-center xs:pt-20 pt-10 md:pt-30 xs:pb-14 pb-8 md:pb-10'>
             <div className='flex md:flex-row  md:px-0 px-3 flex-col w-full md:w-[95%] lg:w-[90%] h-auto justify-center items-center gap-10'>
                 <div className='left md:w-1/2 w-full flex flex-col gap-8 px-3'>
-                    <h2 className='lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl text-xl font-medium uppercase px-2' >Why Choose Us?</h2>
+                    <h2 className='lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl text-xl font-medium uppercase sm:px-2 px-1' >Why Choose Us?</h2>
                     <p className='md:text-xl xs:text-lg text-base px-3 leading-5 md:leading-7'> Our team of dedicated professionals is passionate about technology, creativity, and excellence, ensuring every project we undertake exceeds expectations.</p>
                     <div className='flex flex-col gap-2 w-full h-auto'>
                         {/* <div className="inline-block pb-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF]"> */}

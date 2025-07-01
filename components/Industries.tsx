@@ -27,7 +27,7 @@ const Industries = () => {
     <div className="w-full h-auto flex justify-center items-center md:py-20 py-14">
       <div className="lg:w-[80%] w-[90%] h-auto flex flex-col gap-10 justify-center items-center">
         <div className="heading flex flex-col justify-center items-center text-center text-2xl gap-3 max-w-2xl">
-          <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase px-2'>
+          <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase sm:px-2 px-1'>
             Industries We Serve
           </h2>
           <p className="md:text-xl text-lg px-3 leading-5 md:leading-7">

@@ -10,7 +10,7 @@ import Join from "@/components/Join";
 
 export default function Home() {
   return (
- <div className='w-full h-auto overflow-x-hidden'>
+ <div className='w-full h-auto overflow-x-hidden max-xs:px-1'>
   <AboutPage/>
   <Rating/>
   <ServicePage/>
