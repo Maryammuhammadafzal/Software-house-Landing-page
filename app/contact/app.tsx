@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-10">
       <div className="w-[90%] h-auto flex justify-between items-start gap-4 md:flex-row flex-col">
-        <div className="content flex w-[50%] p-6 flex-col items-start justify-start">
+        <div className="content flex w-[50%] px-6 flex-col items-start justify-start">
           <div className="heading flex flex-col text-2xl gap-3 max-w-lg leading-10">
             <h2 className="text-4xl font-medium uppercase">
               Tailored Solutions for Every Need
@@ -37,7 +37,7 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="form flex flex-col items-start justify-between gap-6 w-[50%] p-6 h-full">
+        <div className="form flex flex-col items-start justify-between gap-6 w-[50%] px-6 h-full">
           <div className="flex flex-col gap-6 h-auto w-full">
             <div className="flex flex-row max-lg:flex-wrap gap-4">
               <div className="grid w-full max-w-sm items-center gap-3">

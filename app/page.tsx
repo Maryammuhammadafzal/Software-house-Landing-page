@@ -6,6 +6,7 @@ import Industries from "@/components/Industries";
 import PortfolioPage from "./portfolio/app";
 import TeamPage from "./team/page";
 import ContactPage from "./contact/app";
+import Join from "@/components/Join";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
   <PortfolioPage/>
   <TeamPage/>
   <ContactPage/>
+  <Join/>
  </div>
   );
 }
