@@ -99,8 +99,8 @@ const TeamPage = () => {
                           <p className="text-xl">{about}</p>
 
                           <div className="flex gap-6 p-3 items-center">
-                            <h5 className="sign text-5xl font-mono">{name}</h5>
-                            <hr className="border border-black w-[290px]" />
+                            <h5 className="sign lg:text-5xl text-4xl font-mono">{name}</h5>
+                            <hr className="border border-black w-[200px] lg:w-[290px]" />
                           </div>
 
                           <div className="w-full flex justify-end items-end px-7">

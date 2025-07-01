@@ -41,6 +41,10 @@ const PortfolioPage = () => {
             ? "col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-3"
             : ""
         }
+        ${index === 5 
+          ? "max-xl:col-span-3"
+          : ""
+        }
       `}
                   >
                     <CardContent className=" p-0">
