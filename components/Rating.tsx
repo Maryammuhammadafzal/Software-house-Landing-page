@@ -25,7 +25,7 @@ const Rating = () => {
     ]
     return (
         <div className='w-full h-auto pb-20 pt-6 justify-center items-center flex'>
-            <div className='w-[90%]  h-auto flex-wrap justify-evenly items-center flex'>
+            <div className='w-[90%] md:px-0 px-3 h-auto flex-wrap gap-12 md:gap-5 justify-evenly items-center flex'>
                 {rating_data.map(({ rate, type, title }, index) => (
                     <div key={index} className='flex justify-center items-center w-auto h-auto gap-4 relative p-3'>
                         <div className='absolute top-0 left-0 flex justify-center items-center p-5'>
