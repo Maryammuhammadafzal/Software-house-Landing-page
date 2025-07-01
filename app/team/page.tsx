@@ -83,9 +83,9 @@ const TeamPage = () => {
                             className="w-[450px] h-[516px] object-cover rounded-4xl"
                           />
                         </div>
-                        <div className="w-full h-full absolute top-0 -left-5 p-3 flex justify-center items-center -z-10">
+                        {/* <div className="w-full h-full absolute top-0 -left-5 p-3 flex justify-start items-center z-10">
                           <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
-                        </div>
+                        </div> */}
                         <div className="flex flex-col gap-10 justify-center pr-5 w-full h-full">
                           <div className="flex flex-col gap-2">
                             <h5 className="font-medium uppercase text-4xl">
