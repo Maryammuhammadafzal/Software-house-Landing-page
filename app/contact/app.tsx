@@ -40,19 +40,37 @@ const ContactPage = () => {
         <div className="form flex flex-col items-start justify-between gap-6 w-[50%] px-6 h-full">
           <div className="flex flex-col gap-6 h-auto w-full">
             <div className="flex flex-row max-lg:flex-wrap gap-4">
-              <div className="grid w-full max-w-sm items-center gap-3">
+              <div className="grid w-full max-w-sm items-center gap-3 ">
                 <Label htmlFor="name">Name</Label>
-                <Input type="name" id="name" className="border-none shadow-none focus:border-[2px] active:border-[2px] rounded-none input-border-gradient" />
+                <div className="inline-block  p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-lg">
+                <Input
+                  type="name"
+                  id="name"
+                  className="border-none w-full shadow-none bg-white text-black rounded-lg"
+                />
+                </div>
               </div>
-              <div className="grid w-full max-w-sm items-center gap-3">
+              <div className="grid w-full max-w-sm items-center gap-3 ">
                 <Label htmlFor="email">Email</Label>
-                <Input type="email" id="email" className="border-none shadow-none focus:border rounded-none input-border-gradient" />
+                <div className="inline-block  p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-lg">
+                <Input
+                  type="email"
+                  id="email"
+                  className="border-none w-full shadow-none bg-white text-black rounded-lg"
+                />
+                </div>
               </div>
             </div>
 
             <div className="grid w-full gap-3">
               <Label htmlFor="message">Your message</Label>
-              <Textarea placeholder="Type your message here." id="message" className="border-none shadow-none focus:border rounded-none input-border-gradient" />
+               <div className="inline-block  p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-lg">
+              <Textarea
+                placeholder="Type your message here."
+                id="message"
+                className="border-none w-full shadow-none bg-white text-black rounded-lg"
+              />
+                </div>
             </div>
           </div>
           <div className="inline-block w-fit m-3 p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-full">
