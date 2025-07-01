@@ -121,6 +121,10 @@
   }
 }
 
+@theme {
+  --breakpoint-xs : 30rem;
+}
+
 .parent {
   isolation: auto;
 }

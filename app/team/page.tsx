@@ -71,34 +71,34 @@ const TeamPage = () => {
                   <CarouselItem className="">
                     <Card
                       key={index}
-                      className="w-full p-0 border-none h-auto flex justify-center items-center bg-[#F8F8F8]  rounded-4xl"
+                      className="w-full p-0 border-none h-auto flex justify-center items-center bg-[#F8F8F8] rounded-4xl"
                     >
-                      <CardContent className="flex p-0 flex-row gap-10 items-center rounded-4xl  w-full h-full">
+                      <CardContent className="flex p-0 flex-row md:gap-10 sm:gap-6 gap-3 items-center rounded-4xl w-full h-full">
                         <div className="w-auto h-full  rounded-4xl">
                           <Image
                             src={image}
                             alt="team-image"
                             width={200}
                             height={300}
-                            className="w-[450px] h-full md:h-[450px] lg:h-[516px] object-cover rounded-4xl"
+                            className="sm:w-[450px] w-[350px] h-full md:h-[450px] lg:h-[516px] object-cover rounded-4xl"
                           />
                         </div>
                         {/* <div className="w-full h-full absolute top-0 -left-5 p-3 flex justify-start items-center z-10">
                           <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-full "></div>
                         </div> */}
-                        <div className="flex flex-col md:gap-8 gap-6 lg:gap-10 justify-center md:pr-5 w-full h-full">
-                          <div className="flex flex-col md:gap-2 gap-1 max-md:p-3">
-                            <h5 className="font-medium uppercase lg:text-4xl md:text-3xl text-2xl">
+                        <div className="flex flex-col md:gap-7 gap-4 lg:gap-10 justify-center md:pr-5 w-full h-full">
+                          <div className="flex flex-col md:gap-2 sm:gap-1 gap-0 max-sm:p-1 max-md:p-3">
+                            <h5 className="font-medium uppercase lg:text-4xl md:text-3xl sm:text-2xl text-xl">
                               {name}
                             </h5>
-                            <h6 className="font-normal uppercase text-xs md:text-sm lg:text-base">
+                            <h6 className="font-normal uppercase text-[10px] sm:text-xs md:text-sm lg:text-base">
                               {profession}
                             </h6>
                           </div>
 
-                          <p className="lg:text-xl md:text-lg text-sm">{about}</p>
+                          <p className="lg:text-xl md:text-lg sm:text-sm text-xs">{about}</p>
 
-                          <div className="flex md:gap-6 gap-3 p-3 items-center">
+                          <div className="flex md:gap-6 sm:gap-3 gap-1 p-3 items-center">
                             <h5 className="sign xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg font-mono">{name}</h5>
                             <hr className="border border-black sm:w-[150px] w-[100px] md:w-[200px] lg:w-[290px]" />
                           </div>

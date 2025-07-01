@@ -16,8 +16,8 @@ const HeroPage = () => {
                     </div>
                     <div className='flex justify-center md:py-0 py-20 items-start w-full z-20 h-full absolute top-0 left-0'>
                         <div className='flex flex-col gap-4 max-w-2xl justify-start items-center text-center'>
-                            <h1 className='md:text-5xl text-4xl font-medium uppercase leading-12 md:leading-16' >Discover Excellence with CodeCrafters Studio</h1>
-                            <p className='md:text-xl text-lg px-3 leading-7'>At CodeCrafters Studio, we transform ideas into reality by delivering cutting-edge software solutions tailored to your unique needs.</p>
+                            <h1 className='md:text-5xl sm:text-4xl xs:text-3xl text-2xl font-medium uppercase xs:leading-10 leading-8 sm:leading-12 md:leading-16' >Discover Excellence with CodeCrafters Studio</h1>
+                            <p className='md:text-xl xs:text-lg text-base px-3 leading-7'>At CodeCrafters Studio, we transform ideas into reality by delivering cutting-edge software solutions tailored to your unique needs.</p>
                             {/* <div className="inline-block p-[1px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-full"> */}
                                 <button className="button-border-gradient border- bg-transparent text-black px-8 py-2 uppercase rounded-full font-semibold">
                                     {`Let’s Connect`}

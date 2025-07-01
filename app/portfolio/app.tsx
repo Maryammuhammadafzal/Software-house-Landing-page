@@ -18,10 +18,10 @@ const PortfolioPage = () => {
         <div className="flex w-full h-full justify-center items-center">
           <div className="w-full text-center h-full flex flex-col gap-6 items-center">
             <div className="heading flex flex-col justify-center items-center text-2xl gap-3 max-w-2xl">
-              <h2 className="text-5xl font-medium uppercase px-2">
+              <h2 className='lg:text-5xl md:text-4xl text-3xl font-medium uppercase px-2'>
                 Tailored Solutions for Every Need
               </h2>
-              <p className="text-xl px-3 leading-7">
+              <p className="md:text-xl text-lg px-3 leading-5 md:leading-7">
                 We prioritize your needs, ensuring transparency, communication,
                 and collaboration throughout the development process.
               </p>
