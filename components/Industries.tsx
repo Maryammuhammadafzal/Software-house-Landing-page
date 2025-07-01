@@ -36,11 +36,11 @@ const Industries = () => {
           </p>
         </div>
         <div className="w-full h-auto flex justify-center items-center p-[1px] bg-gradient-to-r from-[#FB8FD7]  via-[#FDB67F] to-[#8DECFF] rounded-4xl">
-          <div className="bg-white rounded-4xl w-full h-full md:p-10 p-7 lg:p-12 flex justify-evenly items-center">
+          <div className="bg-white rounded-4xl w-full h-full md:p-10 sm:p-7 p-4 lg:p-12 flex justify-evenly items-center">
            
             {industry_data.map(({ image }, index) => (
               <div key={index} className="inline-block w-fit p-[1px] bg-gradient-to-b from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] rounded-full">
-                <button className="bg-white p-5 text-black  uppercase rounded-full ">
+                <button className="bg-white p-3 sm:p-5 text-black  uppercase rounded-full ">
                   <Image
                     src={image}
                     alt="icon"

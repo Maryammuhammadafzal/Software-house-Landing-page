@@ -98,9 +98,9 @@ const TeamPage = () => {
 
                           <p className="lg:text-xl md:text-lg text-sm">{about}</p>
 
-                          <div className="flex gap-6 p-3 items-center">
-                            <h5 className="sign xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-mono">{name}</h5>
-                            <hr className="border border-black w-[150px] md:w-[200px] lg:w-[290px]" />
+                          <div className="flex md:gap-6 gap-3 p-3 items-center">
+                            <h5 className="sign xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg font-mono">{name}</h5>
+                            <hr className="border border-black sm:w-[150px] w-[100px] md:w-[200px] lg:w-[290px]" />
                           </div>
 
                           <div className="w-full flex justify-end items-end px-7">

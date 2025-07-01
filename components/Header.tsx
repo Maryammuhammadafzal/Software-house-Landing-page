@@ -32,7 +32,7 @@ const Header = () => {
                 />
             </Link>
             <nav className='flex w-auto h-auto'>
-                <ul className='flex w-auto h-auto justify-center lg:gap-8 md:gap-6 gap-4 items-center'>
+                <ul className=' w-auto h-auto justify-center lg:gap-8 md:gap-6 gap-4 items-center sm:flex hidden '>
                    { nav_item.map(({name , link} , index) => (
                     <li key={index} className='px-4 py-1 text-center uppercase focus:border hover:border border-black rounded-full'>
                         <Link href={link}>{name}</Link>
