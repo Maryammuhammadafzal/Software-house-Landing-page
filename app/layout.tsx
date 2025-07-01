@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
+import { Inter, Ballet } from "next/font/google";
 import "./globals.css";
 import HeroPage from "./hero/page";
+import { Weight } from "lucide-react";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  display : 'swap',
-  weight : ['100' , '200' , '300' , '400' , '500' , '600' , '700' , '800' , '900']
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const ballet = Ballet({
+  variable: "--font-ballet",
   subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -27,10 +30,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${geistMono.variable} antialiased`}
-      >
-      <HeroPage/>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Kapakana:wght@300..400&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
+      <body className={`${inter.variable} antialiased`}>
+        <HeroPage />
         {children}
       </body>
     </html>
