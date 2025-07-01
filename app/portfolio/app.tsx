@@ -26,7 +26,7 @@ const PortfolioPage = () => {
                 and collaboration throughout the development process.
               </p>
             </div>
-            <section className="p-6 flex justify-center items-center w-full h-full relative">
+            <section className=" flex justify-center items-center w-full h-full relative">
               <div className="w-full h-full absolute top-0 left-0 p-3 flex justify-center items-center -z-10">
                 <div className=" w-[400px] h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[151px] rotate-45 rounded-full "></div>
               </div>
@@ -35,7 +35,7 @@ const PortfolioPage = () => {
                   <Card
                     key={index}
                     className={`
-        w-full overflow-hidden rounded-xl bg-transparent border-none shadow-none
+        w-full overflow-hidden rounded-3xl bg-transparent p-0 border-none shadow-none
         ${
           index === 4
             ? "col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-3"
@@ -43,11 +43,11 @@ const PortfolioPage = () => {
         }
       `}
                   >
-                    <CardContent className="w-auto p-0">
+                    <CardContent className=" p-0">
                       <img
                         src={src}
                         alt={`Gallery ${index + 1}`}
-                        className="w-full h-[350px] rounded-3xl object-cover hover:scale-105 transition-transform duration-300"
+                        className="w-full min-w-[300px] h-[290px] rounded-3xl object-cover hover:scale-110 transition-transform duration-300"
                       />
                     </CardContent>
                   </Card>
