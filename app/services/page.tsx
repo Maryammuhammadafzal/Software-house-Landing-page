@@ -1,7 +1,41 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { title } from "process";
 import React from "react";
 
 const ServicePage = () => {
+  let service_data = [
+    {
+      title: "Custom Software Development",
+      description:
+        "Empower your business with bespoke software solutions designed specifically for your operations. From planning to deployment, we provide scalable and robust applications tailored to your needs.",
+    },
+    {
+      title: "Web Application Development",
+      description:
+        "Enhance your online presence with dynamic and user-friendly web applications. Our team specializes in modern frameworks and ensures seamless user experiences across all devices.",
+    },
+    {
+      title: "Mobile App Development",
+      description:
+        "Reach your audience wherever they are with intuitive and responsive mobile applications. We develop apps for Android, iOS, and cross-platform solutions to meet your business goals.",
+    },
+    {
+      title: "Cloud Solutions",
+      description:
+        "Leverage the power of cloud computing with our scalable, secure, and cost-effective cloud services. From migration to management, we help you harness the cloud's full potential.",
+    },
+    {
+      title: "E-Commerce Development",
+      description:
+        "Boost your sales with customized e-commerce platforms. We provide end-to-end solutions, including payment gateways, inventory management, and responsive design.",
+    },
+    {
+      title: "IT Consulting",
+      description:
+        "Navigate the complexities of technology with our expert consulting services. We provide insights, strategies, and solutions to optimize your IT infrastructure.",
+    },
+  ];
+
   return (
     <div className="w-full h-auto flex justify-center items-center py-10">
       <div className="w-[90%] h-full flex justify-center items-center relative">
@@ -18,22 +52,23 @@ const ServicePage = () => {
               </p>
             </div>
             <div className="cards flex flex-wrap w-full h-auto gap-9 justify-center items-center">
-              <Card  className="w-[340px] border-gradient h-[335px] rounded-xl p-3 text-center flex justify-center items-center">
+            {service_data.map(({title , description} , index) => (
+                  <Card className="w-[340px] border-gradient h-[335px] rounded-xl p-3 text-center flex justify-center items-center">
                 <CardContent className="flex flex-col gap-4 tetx-center justify-center items-center  w-full h-full">
-                  <h5 className="font-medium uppercase text-xl">
-                    Custom Software Development
-                  </h5>
-                  <p className="text-sm">
-                    Empower your business with bespoke software solutions
-                    designed specifically for your operations. From planning to
-                    deployment, we provide scalable and robust applications
-                    tailored to your needs.
-                  </p>
+                  <div className="flex flex-col justify-between items-center w-full h-auto text-center">
+                    <h5 className="font-medium uppercase text-xl">
+                      {title}
+                    </h5>
+                    <p className="text-sm">
+                     {description}
+                    </p>
+                  </div>
                   <button className=" bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] text-white px-8 py-2 uppercase rounded-full font-semibold">
                     {`Learn More`}
                   </button>
                 </CardContent>
               </Card>
+            ))}
             </div>
           </div>
         </div>
