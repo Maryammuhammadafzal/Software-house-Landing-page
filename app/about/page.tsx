@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutPage = () => {
     return (
-        <div className='w-full h-auto flex justify-center items-center py-20'>
+        <div className='w-full h-auto flex justify-center items-center pt-30 pb-10'>
             <div className='flex flex-row w-[90%] h-auto justify-center items-center gap-10'>
                 <div className='left w-1/2 flex flex-col gap-8 px-3'>
                     <h2 className='text-5xl font-medium uppercase px-2' >Why Choose Us?</h2>
