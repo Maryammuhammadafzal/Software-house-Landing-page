@@ -45,7 +45,7 @@ const TeamPage = () => {
       name: "Mia Patel",
       profession: "UI/UX Designer",
       about:
-        "Mia designs intuitive and visually stunning user interfaces. Her creativity and focus on user experience make every project not only functional but also delightful to use.",
+        "Mia designs intuitive and visually stunning user interfaces. Her creativity and focus on user experience make every project not only functional but also delightful to use.",
     },
   ];
 

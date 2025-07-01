@@ -1,6 +1,5 @@
-import AnimatedVector from '@/components/AnimatedVector'
+
 import Header from '@/components/Header'
-import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const HeroPage = () => {
