@@ -11,7 +11,7 @@ const HeroPage = () => {
                 </div>
                 <div className='hero-section flex w-full min-h-[400px] relative justify-center items-start'>
                     <div className='w-full h-[400px] absolute left-0 top-0 flex justify-center items-start z-10'>
-                        <div className=' xs:w-[400px] w-full h-[400px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-4xl '></div>
+                        <div className=' xs:w-[400px] w-full xs:h-[400px] h-[250px] bg-gradient-to-r from-[#FB8FD7] via-[#FDB67F] to-[#8DECFF] blur-[171px] rotate-45 rounded-4xl '></div>
                     </div>
                     <div className='flex justify-center md:py-0 xs:py-20 py-14 items-start w-full z-20 h-full absolute top-0 left-0'>
                         <div className='flex flex-col gap-4 max-w-2xl justify-start items-center text-center'>
